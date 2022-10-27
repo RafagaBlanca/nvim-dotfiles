@@ -47,6 +47,8 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "lunarvim/colorschemes" --A bunch of colorschemes 
   use "folke/tokyonight.nvim"
+  use "lunarvim/synthwave84.nvim"
+  use "kaiuri/nvim-juliana"
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
 
@@ -85,6 +87,8 @@ return packer.startup(function(use)
   'nvim-lualine/lualine.nvim',
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 }
+
+  use { 'turbio/bracey.vim', run = 'cd app & npm install --prefix server' }
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

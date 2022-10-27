@@ -8,7 +8,9 @@ local servers = {
 	"jsonls",
 	"yamlls",
   "clangd",
-  "clangd_format",
+  "clang-format",
+  "emmet_ls",
+  "jdtls",
 }
 
 --https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md
