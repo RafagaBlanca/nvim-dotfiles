@@ -172,7 +172,7 @@ bindsym $mod+r mode "resize"
 ######################################
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec cool-retro-term
 
 # kill focused window
 bindsym $mod+q kill
@@ -374,7 +374,7 @@ exec --no-startup-id dex --autostart --environment i3
 #exec --no-startup-id numlockx on
 
 # configure multiple keyboard layouts and hotkey to switch (Alt+CAPSLOCK in this example)
-bindsym $mod+y exec --no-startup-id setxkbmap -layout 'us,es' -variant qwerty -option 'grp:lalt_lshift_toggle'
+bindsym $mod+y exec --no-startup-id setxkbmap -layout 'us, es' -variant qwerty -option 'grp:lalt_lshift_toggle'
 # start conky:
 #exec_always --no-startup-id conky
 
