@@ -67,3 +67,7 @@ map('n', '<leader>n', ':NvimTreeFindFile<CR>')      -- search file
 
 -- Tagbar
 map('n', '<leader>z', ':TagbarToggle<CR>')          -- open/close
+
+--Telescope
+map('n','<leader>ff',':Telescope find_files<CR>')
+map('n','<leader>fg',':Telescope live_grep<CR>')

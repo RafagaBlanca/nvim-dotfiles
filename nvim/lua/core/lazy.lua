@@ -44,6 +44,11 @@ lazy.setup({
     { 'tanvirtin/monokai.nvim', lazy = true },
     { 'https://github.com/rose-pine/neovim', name = 'rose-pine', lazy = true },
 
+    {
+    'nvim-telescope/telescope.nvim', tag = '0.1.5',
+-- or                              , branch = '0.1.x',
+      dependencies = { 'nvim-lua/plenary.nvim' }
+    },
     -- Icons
     { 'kyazdani42/nvim-web-devicons', lazy = true },
 
